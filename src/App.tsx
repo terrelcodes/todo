@@ -1,11 +1,12 @@
 import type { Component } from 'solid-js';
-import Comp from './Comp';
+import Counter from './Counter';
 
 const App: Component = () => {
   return (
     <>
       <h1>Hello, Dave</h1>
-      <Comp />
+      <Counter label="eggs" start={12}/>
+      <p>Welcome to <a href="https://www.solidjs.com/">SolidJS</a>.</p>
     </>
   );
 };
